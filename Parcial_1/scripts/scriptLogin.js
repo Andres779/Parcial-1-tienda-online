@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (user.role === 'Admin') {
       window.location.href = '/Parcial_1/paginas/paginas_admin/admin_dashboard.html';
     } else {
-      window.location.href = '/Parcial_1/index.html';
+      window.location.href = '/Parcial_1/inicio.html';
     }
   }
 
@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', function() {
       if (usuarioEncontrado.role === 'Admin') {
         window.location.href = '/Parcial_1/paginas/paginas_admin/admin_dashboard.html';
       } else {
-        window.location.href = '/Parcial_1/index.html';
+        window.location.href = '/Parcial_1/inicio.html';
       }
     });
   }
