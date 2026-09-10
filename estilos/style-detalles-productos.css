@@ -99,13 +99,11 @@ body {
 }
 
 .header-producto h1 {
-    font-family: "Changa One", sans-serif;
     font-size: 32px;
     margin: 0;
 }
 
 .precio {
-    font-family: "Changa One", sans-serif;
     font-size: 32px;
     color: #ffffff;
 }
