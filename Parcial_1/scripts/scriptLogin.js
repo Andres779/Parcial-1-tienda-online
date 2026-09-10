@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const user = JSON.parse(localStorage.getItem('user'));
   if (user) {
     if (user.role === 'Admin') {
-      window.location.href = '/Parcial_1/paginas/paginas_admin/admin_dashboard.html';
+      window.location.href = 'admin_dashboard.html';
     } else {
       window.location.href = '/Parcial_1/inicio.html';
     }
@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
       // Redirección relativa entre archivos que están dentro de la carpeta /paginas/
       if (usuarioEncontrado.role === 'Admin') {
-        window.location.href = '/Parcial_1/paginas/paginas_admin/admin_dashboard.html';
+        window.location.href = 'admin_dashboard.html';
       } else {
         window.location.href = '/Parcial_1/inicio.html';
       }
