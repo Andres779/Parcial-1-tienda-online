@@ -16,21 +16,36 @@
         <section>
             <div class="menu">
                 <hr>
-                <a href="/Parcial_1/pages/pages_admin/admin_dashboard.html">DashBoard</a>
-                <a href="/Parcial_1/pages/pages_admin/admin_productos.html">Productos</a>
-                <a href="/Parcial_1/pages/pages_admin/admin_usuarios.html">Usuarios</a>
+                <a href="/Parcial_1/paginas/paginas_admin/admin_dashboard.html">DashBoard</a>
+                <a href="/Parcial_1/paginas/paginas_admin/admin_productos.html">Productos</a>
+                <a href="/Parcial_1/paginas/paginas_admin/admin_usuarios.html">Usuarios</a>
                 <div class="menu-secundario">
-                    <a href="/Parcial_1/pages/pages_admin/admin_configuracion.html">Configuracion</a>
-                    <a style="color: blueviolet;" href="/Parcial_1/pages/pages_admin/admin_perfil.html">Perfil</a>
-                    <a href="/Parcial_1/pages/pages_admin/admin_buscar.html">Buscar</a>
-                    <a href="/Parcial_1/pages/pages_admin/admin_ayuda.html">Ayuda</a>
+                    <a href="/Parcial_1/paginas/paginas_admin/admin_configuracion.html">Configuracion</a>
+                    <a style="color: blueviolet;" href="/Parcial_1/paginas/paginas_admin/admin_perfil.html">Perfil</a>
+                    <a href="/Parcial_1/paginas/paginas_admin/admin_ayuda.html">Ayuda</a>
                     <hr>
-                    <a href="/Parcial_1/pages/pages_admin/admin_perfiles.html">Perfiles</a>
+                    <a href="/Parcial_1/paginas/paginas_admin/admin_perfiles.html">Perfiles</a>
                 </div>
             </div>
             <section class="contenido">
-                <h1>PERFIL</h1>
+                <div class="titulo-pagina">
+                    <div>
+                        <p class="saludo">Información de la cuenta</p>
+                        <h1>Perfil</h1>
+                    </div>
+                </div>
+
+                <section class="bloque-inicio">
+                    <h2>Datos del Administrador</h2>
+                    <br>
+                    <p><strong>Nombre:</strong> <span id="perfil-nombre">Cargando...</span></p>
+                    <p><strong>Correo electrónico:</strong> <span id="perfil-correo">Cargando...</span></p>
+                    <p><strong>Rol:</strong> <span id="perfil-rol">Cargando...</span></p>
+                    <p><strong>Estado:</strong> <span style="color: #00ff88;">Activo</span></p>
+                </section>
+            </section>
             </section>
         </section>
+        <script src="/Parcial_1/scripts/perfilScript.js"></script>
     </body>
 </html>

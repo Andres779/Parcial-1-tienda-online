@@ -16,36 +16,36 @@
     <section>
         <div class="menu">
             <hr>
-            <a href="/Parcial_1/pages/pages_admin/admin_dashboard.html">DashBoard</a>
-            <a href="/Parcial_1/pages/pages_admin/admin_productos.html">Productos</a>
-            <a href="/Parcial_1/pages/pages_admin/admin_usuarios.html">Usuarios</a>
+            <a href="/Parcial_1/paginas/paginas_admin/admin_dashboard.html">DashBoard</a>
+            <a href="/Parcial_1/paginas/paginas_admin/admin_productos.html">Productos</a>
+            <a href="/Parcial_1/paginas/paginas_admin/admin_usuarios.html">Usuarios</a>
             <div class="menu-secundario">
-                <a href="/Parcial_1/pages/pages_admin/admin_configuracion.html">Configuracion</a>
-                <a href="/Parcial_1/pages/pages_admin/admin_perfil.html">Perfil</a>
-                <a href="/Parcial_1/pages/pages_admin/admin_buscar.html">Buscar</a>
-                <a href="/Parcial_1/pages/pages_admin/admin_ayuda.html">Ayuda</a>
+                <a href="/Parcial_1/paginas/paginas_admin/admin_configuracion.html">Configuracion</a>
+                <a href="/Parcial_1/paginas/paginas_admin/admin_perfil.html">Perfil</a>
+                <a href="/Parcial_1/paginas/paginas_admin/admin_ayuda.html">Ayuda</a>
                 <hr>
-                <a href="/Parcial_1/pages/pages_admin/admin_perfiles.html">Perfiles</a>
+                <a href="/Parcial_1/paginas/paginas_admin/admin_perfiles.html">Perfiles</a>
             </div>
         </div>
         <section class="contenido">
             <div class="titulo-pagina">
                 <div>
                     <p class="saludo">Productos</p>
-                    h1>Detalle de producto</h1>
+                    <h1>Detalle de producto</h1>
                 </div>
-                <a class="boton secundario" href="/Parcial_1/pages/pages_admin/admin_productos.html">Volver</a>
+                <a class="boton secundario" href="/Parcial_1/paginas/paginas_admin/admin_productos.html">Volver</a>
             </div>
             <section class="formulario detalle">
-                <p><strong>Código:</strong> 001</p>
-                <p><strong>Nombre:</strong> Teclado</p>
-                <p><strong>Categoría:</strong> Periféricos</p>
-                <p><strong>Precio:</strong> $49.990</p>
-                <p><strong>Stock:</strong> 10 unidades</p>
-                <p><strong>Descripción:</strong> Teclado ....</p>
-                <a class="boton" href="/Parcial_1/pages/pages_admin/admin_editar_producto.html">Editar producto</a>
+                <p><strong>Código:</strong><span id="p-codigo"></span></p>
+                <p><strong>Nombre:</strong><span id="p-nombre"></span></p>
+                <p><strong>Categoría:</strong><span id="p-categoria"></span></p>
+                <p><strong>Precio:</strong><span id="p-precio"></span></p>
+                <p><strong>Stock:</strong><span id="p-stock"></span></p>
+                <p><strong>Descripción:</strong><span id="p-descripcion"></span></p>
+                <a id="btn-editar" class="boton" href="/Parcial_1/paginas/paginas_admin/admin_editar_producto.html">Editar producto</a>
             </section>
         </section>
     </section>
+    <script src="/Parcial_1/scripts/mostrarAdminScript.js"></script>
 </body>
 </html>
