@@ -3,24 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nosotros</title>
-    <link rel="stylesheet" href="/estilos/info_style.css">
-    <link rel="icon" href="/images/Logo.webp">
+    <title>Nosotros | Neon Fox Gaming</title>
+    <link rel="stylesheet" href="/Parcial_1/estilos/style-nosotros.css">
+    <link rel="stylesheet" href="/Parcial_1/estilos/style-header.css">
+    <link rel="stylesheet" href="/Parcial_1/estilos/style-footer.css">
+    <link rel="stylesheet" href="/Parcial_1/estilos/style-anuncios-bar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.css" integrity="sha512-FA9cIbtlP61W0PRtX36P6CGRy0vZs0C2Uw26Q1cMmj3xwhftftymr0sj8/YeezDnRwL9wtWw8ZwtCiTDXlXGjQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="icon" href="/Parcial_1/images/favicon.webp">
 </head>
-<body style="background-color: #110027; color: #ffffff;">
+<body>
+    <div class="anuncios-bar">
+        <h2>¡Envío GRATIS en compras sobre $50.000 a todo el país!</h2>
+    </div>
+
     <header id="header">
         <div class="header-content">
-            <h1>Neon fox gaming</h1>
+            <a href="/Parcial_1/inicio.html" class="NeonFoxGaming">Neon Fox Gaming</a>
+            
             <nav class="nav-links">
-                <a href="index.html">Inicio</a>
-                <a href="productos.html">Productos</a>
-                <a href="nosotros.html">Nosotros</a>
-                <a href="blogs.html">Blogs</a>
-                <a href="contacto.html">Contactos</a>
-                <a href="perfil.html">Perfil</a>
+                <a href="/Parcial_1/inicio.html">Inicio</a>
+                <a href="/Parcial_1/paginas/productos.html">Productos</a>
+                <a href="/Parcial_1/paginas/nosotros.html">Nosotros</a>
+                <a href="/Parcial_1/paginas/blogs.html">Blogs</a>
+                <a href="/Parcial_1/paginas/contacto.html">Contactos</a>
             </nav>
+
+            <div class="header-acciones">
+                <div class="btn-carrito">
+                    <a href="/Parcial_1/paginas/carrito.html">Carrito</a>
+                </div>
+                <a href="/Parcial_1/paginas/login.html" class="text-nextpage">Iniciar Sesión</a>
+            </div>
         </div>
     </header>
+
     <main class="main-container">
         <section class="hero-section">
             <h2>Sobre Nuestra Tienda Gamer</h2>
@@ -54,19 +70,38 @@
             <img src="https://images.squarespace-cdn.com/content/v1/5a04ada3fe54ef9d6db19bc8/e0e33d4c-1dff-41c6-abc3-90172cec4cad/portal_vortex_purple_blue.gif" alt="Gaming GIF" class="responsive-img">
         </section>
     </main>
-    <footer id="footer">
-        <section id= "contactos">
-            <article>
-                <h2>Contacto</h2>
-                <div class="contacto-links">
-                    <a href="https://www.instagram.com/nfgaming436/" target="_blank">
-                        <img src="https://wallpapers.com/images/hd/instagram-logo-vector-icon-yykh2ngccgf706ay.png" alt="Instagram" width="50" height="50">
-                    </a>
-                    <a href="mailto:manicosas4@gmail.cl">Correo preguntas :D</a>
-                    <a href="tel:+56912341234">Teléfono consultas</a>
+
+    <footer class="footer" id="footer">
+        <div class="footer-container">
+            <div class="footer-row">
+                <div class="footer-links">
+                    <h4>Ayuda</h4>
+                    <ul>
+                        <li>Centro de ayuda</li>
+                        <li>Seguimiento de mi compra</li>
+                        <li>Formulario de contacto</li>
+                    </ul>
                 </div>
-            </article>
-        </section>
+                <div class="footer-links">
+                    <h4>Nosotros</h4>
+                    <ul>
+                        <li>Quienes somos</li>
+                        <li>Ventas coporativas</li>
+                        <li>Terminos y condiciones</li>
+                        <li>Politicas y seguridad</li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Siguenos</h4>
+                    <div class="social-link">
+                        <a href="#">🟦</a>
+                        <a href="#">🐦</a>
+                        <a href="#">📸</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </footer>
 </body>
 </html>
